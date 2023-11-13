@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="/css_folder/style.css" />
+
+    <title>Rock Paper Scissor game</title>
+  </head>
+  <body>
+    <div class="intro">
+      <h1>Rock paper Scissor</h1>
+      <button class="playBtn" type="button" name="button">Let's play</button>
+      <p class="winner-tag hide">Winner Right here</p>
+    </div>
+
+    <div class="main-win">
+      <div class="player-section">
+        <h2>Player</h2>
+        <p class="player-score">0</p>
+        <img
+          class="player-hand"
+          src="/assets/rock.png"
+          alt=""
+          style="transform: scalex(-1)"
+        />
+      </div>
+      <div class="computer-section">
+        <h2>Computer</h2>
+        <p class="ai-score">0</p>
+        <img class="computer-hand" src="/assets/rock.png" alt="" />
+      </div>
+    </div>
+    <div class="options hide">
+      <button class="btn rock" type="button">rock</button>
+      <button class="btn paper" type="button">paper</button>
+      <button class="btn scissors" type="button">scissor</button>
+    </div>
+
+    <script src="/js_folder/functionality.js" charset="utf-8"></script>
+  </body>
+</html>

@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: #BFFCF9;
+    text-align: center;
+    background-color: #996A98;
+    font-size: 1.5rem;
+}
+
+.player-section {
+    display: inline-block;
+    width: 100%;
+}
+
+.computer-section {
+    display: inline-block;
+    width: 100%;
+}
+
+.main-win {
+    display: flex;
+    width: 50%;
+    height: 60vh;
+    transform: translate(50%, 20%);
+    margin: 0;
+    padding: 0;
+}
+
+.options {
+    transform: translateX(50%);
+    width: 50%;
+}
+
+button {
+    border: none;
+    background-color: #00C9C8;
+    margin-left: 5%;
+    padding: 10px 25px;
+}
+
+button:hover {
+    color:#fff;
+    background-color: black;
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.player-hand {
+    transform: scalex(-1);
+}
+
+.playBtn {
+    margin-top: 2%;
+    transform: translateX(400%);
+    max-width: 10%;
+}
+.player-section{
+    margin-right: 50px;
+}
+.hide {
+    visibility: hidden;
+}
+
+.winner-tag{
+    color: #75ff5b;
+    font-size: 2rem;
+    font-weight: bolder;
+    text-shadow: 2px 2px #174467;
+    margin-top: 20px;
+}
